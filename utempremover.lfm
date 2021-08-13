@@ -1,0 +1,29 @@
+object frmTempRemover: TfrmTempRemover
+  Left = 256
+  Height = 82
+  Top = 145
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  Caption = 'Temp Remover'
+  ClientHeight = 82
+  ClientWidth = 320
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object btnRemoveTemp: TButton
+    Left = 112
+    Height = 25
+    Top = 48
+    Width = 97
+    Caption = 'Remove Temp'
+    OnClick = btnRemoveTempClick
+    TabOrder = 0
+  end
+  object pbrTempRemover: TProgressBar
+    Left = 16
+    Height = 28
+    Top = 8
+    Width = 287
+    Max = 0
+    TabOrder = 1
+  end
+end
